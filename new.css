@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap');
+
+.logo {
+	 text-align: center;
+	 width: 100%;
+}
+.navbar {
+	text-align: left;
+	padding-top: 23px;
+	width: 100%;
+}
+.navbar a{
+	color: #19345E;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.section2 {
+	background-image: url("bg.png");
+}
+.isi {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 38px;
+	padding-top: 28px;
+}
+.isi h3 {
+	font-weight: bold;
+	font-size: 45px;
+}
+.isi span{
+	font-weight: lighter;
+	font-size: 13px;
+	padding-bottom: 38px;
+}
+.isi h5 {
+	font-weight: 600;
+	font-size: 20px;
+	padding-top: 18px;
+	padding-bottom: 8px;
+}
+.isi button {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #F47522;
+	color: #FFFFFF;
+	border-color: #F47522;
+}
+
+.section3 {
+	padding: 38px;
+}
+.sec3 {
+	border: 1px;
+	-webkit-box-shadow: 2px 2px 5px 6px rgba(222,222,222,1);
+	-moz-box-shadow: 2px 2px 5px 6px rgba(222,222,222,1);
+	box-shadow: 2px 2px 5px 6px rgba(222,222,222,1);
+	border-color: #DEDEDE;
+	padding:28px;
+	font-family: 'Muli', sans-serif;
+}
+.sec3 h3 {
+	padding-bottom: 28px;
+	color: #19345E;
+	padding-left: 38px;
+	font-weight: bold;
+}
+.sec3 p{
+	padding-left: 38px;
+}
+.info{
+	padding-right: 38px;
+	padding-left: 38px;
+	text-align: left;
+}
+.info table{
+	border:1px solid;
+	border-color: #CBCBCB;
+	width: 100%;
+}
+.mail {
+	background-color: #E3E3E3;
+}
+.kiri{
+	width: 100px;
+	padding: 8px;
+	font-weight: bold;
+}
+.kanan {
+	width: 300px;
+	padding: 8px;
+}
+.section4 {
+	background-color: #19345E;
+	padding: 28px;
+}
+.footerkiri ul{
+	text-align: center;
+	list-style-type: none;
+	width: 100%;
+}
+.footerkanan{
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+	.section3 {
+		width: 100%;
+		padding-right: 3px;
+		padding-left: 3px;
+	}
+	.sec3 h3{
+		padding-left: 0px;
+	}
+	.sec3 p {
+		padding-left: 0px; 
+	}
+	.info {
+		padding-left: 0px;
+		width: 100%;
+	}
+	.info table {
+		width: 100%;
+	}
+}
+@media (max-width: 575px) {
+
+}
